@@ -69,8 +69,9 @@ public class Driver {
     }
 
     // public static boolean autenticarUsuario(String usuario, String contrasenia) {
-    //     // Agrega lógica de autenticación real aquí (comparar con usuarios y contraseñas válidos)
-    //     // Devuelve true si la autenticación es exitosa, de lo contrario, devuelve false
+    //     String usuarioValido = "usuario_valido";
+    //     String contraseniaValida = "contrasenia_valida";
+    //
     //     return usuario.equals("usuario_valido") && contrasenia.equals("contrasenia_valida");
     // }
 
