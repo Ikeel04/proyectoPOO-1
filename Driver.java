@@ -7,9 +7,23 @@ public class Driver {
         Scanner scanner = new Scanner(System.in);
         int salir = 1;
         int opcion = 0;
-        String usuario = "";
-        String contrasenia = "";
+        // String usuario = "";
+        // String contrasenia = "";
         
+        // boolean loggedIn = false;
+        // while (!loggedIn) {
+        //     System.out.print("Ingrese su usuario: ");
+        //     usuario = scanner.nextLine();
+        //     System.out.print("Ingrese su contraseña: ");
+        //     contrasenia = scanner.nextLine();
+        //     loggedIn = autenticarUsuario(usuario, contrasenia);
+            
+        //     if (!loggedIn) {
+        //         System.out.println("Usuario o contraseña incorrectos. Intente nuevamente.");
+        //     }
+        // }
+
+
         while (salir != 0) {
             printMenu();
             try {
@@ -53,6 +67,12 @@ public class Driver {
             opcion = 0;
         }
     }
+
+    // public static boolean autenticarUsuario(String usuario, String contrasenia) {
+    //     // Agrega lógica de autenticación real aquí (comparar con usuarios y contraseñas válidos)
+    //     // Devuelve true si la autenticación es exitosa, de lo contrario, devuelve false
+    //     return usuario.equals("usuario_valido") && contrasenia.equals("contrasenia_valida");
+    // }
 
     public static void printMenu() {
         System.out.println("");
