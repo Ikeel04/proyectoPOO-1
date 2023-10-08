@@ -7,6 +7,8 @@ public class Driver {
         Scanner scanner = new Scanner(System.in);
         int salir = 1;
         int opcion = 0;
+        String usuario = "";
+        String contrasenia = "";
         
         while (salir != 0) {
             printMenu();
